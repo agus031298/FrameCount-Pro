@@ -19,10 +19,11 @@ export interface PdfConfig {
   artistName: string;
   reportId: string;
   notes: string;
+  periodMonth: string;
 }
 
 export const PRICING_TIERS: PricingRule[] = [
   { min: 0, max: 100, price: 125000, label: 'Kategori 1' },
-  { min: 101, max: 200, price: 150000, label: 'Kategori 2' },
-  { min: 201, max: 999, price: 225000, label: 'Kategori 3' },
+  { min: 0, max: 200, price: 150000, label: 'Kategori 2' },
+  { min: 0, max: 999, price: 225000, label: 'Kategori 3' },
 ];

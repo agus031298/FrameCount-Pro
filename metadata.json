@@ -1,0 +1,5 @@
+{
+  "name": "FrameCount Pro",
+  "description": "A professional shot calculator that estimates costs based on frame counts, featuring Gemini AI for automated data extraction from slate images.",
+  "requestFramePermissions": []
+}
